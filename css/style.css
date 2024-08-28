@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+    font-family:'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+header{
+    background-color: aqua;
+    width: fit-content;
+}
+.logo{
+    margin-top: calc(100vw / 36);
+    margin-left: calc(100vw / 36);
+    width: calc(100vw / 12);
+    aspect-ratio: 5/ 2;
+}
+main{
+    position: absolute;
+    top:calc(500vh / 128);
+    margin-left: calc(500vw / 36);
+    margin-bottom: calc(500vh /128);
+    width: calc(3100vw / 36);;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+.bloque_1{
+    width: calc(1695vw / 36);
+    height: calc(5900vh / 64);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(255, 81, 0);
+    
+}
+.text-area{
+    margin-top: calc(128vh / 8);
+    width: 100%;
+    height: calc(14300vh / 512);
+    font-size: 32px;
+    color: #0A3871;
+}
+.contenedor{
+    width: 100%;
+    margin-bottom: calc(100vh/32);
+}
+.informacion{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.informacion img{
+    width: 16px;
+    height: 16px;
+}
+.informacion h6{
+    margin-left: 8px;
+    margin-bottom: 16px;
+    width: fit-content;
+    font-size: 12px;
+    color: #495057;
+    line-height: 150%;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-encriptar{
+    width: calc(4100% /84);
+    max-width: 328px;
+    aspect-ratio: 328/67;
+    border-radius: 24px;
+    background-color: #0A3871;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.btn-desencriptar{
+    width: calc(4100% /84);
+    max-width: 328px;
+    aspect-ratio: 328/67;
+    border: 1px solid #0A3871;
+    border-radius: 24px; 
+    font-size: 16px;
+    color: #0A3871;
+}
+
+.bloque_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    width: calc(500vw / 18);
+    box-sizing: border-box;
+}
+.mensaje{
+    position: relative;
+    width: 83.5%;
+    height: calc(100% - 3 * (100vh / 32) - 69px);
+    margin-top: calc(100vh/32);
+}
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(100vh/32);
+}
+.btn-copiar{
+    width: 84%;
+    max-width: 336px;
+    aspect-ratio: 336/67;
+    border: 1px solid #0A3871;
+    border-radius: 24px; 
+    font-size: 16px;
+    color: #0A3871;
+}
